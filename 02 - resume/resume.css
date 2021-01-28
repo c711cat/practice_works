@@ -1,0 +1,30 @@
+*{box-sizing: border-box;
+  font-family: 微軟正黑體;
+  position: relative;
+  
+}
+.wrap{
+  width: 100%;
+}
+.resume{
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid;
+}
+.header{
+  text-align: center;
+}
+.horizontal-line{
+  width: 100px;
+  height: 1px;
+  border-top: 1px solid;
+  
+}
+.decorative{
+  border: 1px solid;
+}
+.beautify{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
