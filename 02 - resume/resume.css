@@ -41,3 +41,10 @@
   text-align: center;
   line-height: 11px;
 }
+.contact-pic img{
+  width: 50px;
+  
+}
+.contact-pic, .contact-text{
+  text-align: center;
+}
