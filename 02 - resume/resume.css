@@ -98,6 +98,9 @@ body {
   padding-top: 10px;
   padding-bottom: 15px;
 }
+.experience-outside{
+  margin-bottom: 50px;
+}
 .third-title {
   color: #444;
   font-size: 20px;
@@ -160,23 +163,33 @@ body {
   padding-bottom: 20px;
 }
 .skill-summary {
+  
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 40px;
 }
-.skill-items {
-  margin-right: 20px;
+
+.skill-name{
+  color: #666;
+  letter-spacing: 1px;
+  margin-bottom: 2px;
+  font-size: 14px;
 }
 .skill-bar {
-  width: 100px;
+  width: 280px;
   height: 20px;
   position: relative;
-  background: cornflowerblue;
+  background:#efefef;
+  margin-bottom: 15px;
 }
 .percentage {
   height: 100%;
   width: 20%;
   position: absolute;
   left: 0%;
-  background: crimson;
+  background: linear-gradient(to right, #89f7fe, #66a6ff);
+  
 }
 .big-circle {
   width: 150px;
