@@ -1,30 +1,33 @@
 * {
   box-sizing: border-box;
 }
+body {
+  font-family: 黑體-繁, "Heiti TC", "儷黑 Pro", "LiHei Pro", 微軟正黑體,
+    "Microsoft JhengHei", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 .wrap {
   width: 100%;
 }
 .resume {
   width: 55%;
   margin: 0 auto;
-  
 }
 .header {
   text-align: center;
- background: linear-gradient(to right,#ffa3ab,#fecfef);
- color: #fff;
- padding: 30px;
+  background: linear-gradient(to right, #ffa3ab, #fecfef);
+  color: #fff;
+  padding: 30px;
 }
 .headline {
-  margin:10px;
+  margin: 10px;
   font-size: 12px;
   letter-spacing: 3px;
 }
-.name{
-margin:20px;
-font-weight: bold;
-font-size: 34px;
-letter-spacing: 5px;
+.name {
+  margin: 20px;
+  font-weight: bold;
+  font-size: 34px;
+  letter-spacing: 5px;
 }
 .horizontal-line {
   width: 250px;
@@ -49,20 +52,22 @@ letter-spacing: 5px;
   background: #efefef;
   padding: 50px 20px 80px 20px;
 }
-.right-content{
+.right-content {
+  padding-top: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
   width: 70%;
 }
 .personal-photo img {
-
- height: 200px;
- width: 200px;
+  height: 200px;
+  width: 200px;
   border-radius: 100%;
   max-width: 100%;
- max-height: 100%;
+  max-height: 100%;
 }
 .personal-photo {
   text-align: center;
- margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 .sec-title {
   border-bottom: 1.6px solid #777;
@@ -73,17 +78,14 @@ letter-spacing: 5px;
   font-size: 20px;
   margin-bottom: 30px;
 }
-.self-introduction{
+.self-introduction {
   color: #666;
   margin-top: -10px;
   padding-bottom: 100px;
   line-height: 1.2;
- 
 }
 .contact-pic img {
   width: 60px;
-
- 
 }
 .contact-pic,
 .phone-number,
@@ -91,16 +93,71 @@ letter-spacing: 5px;
   text-align: center;
   color: #666;
   letter-spacing: 1px;
-
 }
-.phone-number{
+.phone-number {
   padding-top: 10px;
   padding-bottom: 15px;
- 
 }
-
+.third-title {
+  color: #444;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 14px;
+  border-bottom: 1px solid #444;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
 .experience-introduction {
   display: flex;
+  color: #666;
+  letter-spacing: 1px;
+  
+}
+.years {
+  border: 1.5px solid #ff9a9e;
+  font-size: 12px;
+  height: 100%;
+  padding: 3px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -6px;
+}
+.serial-connection{
+  width: 50px;
+  margin-left: 10px;
+  margin-top: 1px;
+}
+.point{
+  width: 8px;
+  height: 8px;
+  background: #ff9a9e;
+  border-radius: 100%;
+  margin: 0 auto;
+}
+.line{
+  height: 100%;
+  width: 1px;
+  border-left: 1px solid #ff9a9e;
+  margin: 0 auto;
+}
+.job-summary{
+  padding-left: 10px;
+}
+.job-position {
+  font-size: 16px;
+  color: #666;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.job-title {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.job-details {
+  font-size: 14px;
+  line-height: 1.5;
+  padding-bottom: 20px;
 }
 .skill-summary {
   display: flex;
@@ -148,7 +205,7 @@ letter-spacing: 5px;
   left: 50%;
   width: 50%;
   height: 50%;
-  transform: skew(0deg,-45deg);
+  transform: skew(0deg, -45deg);
   background: #efefef;
 }
 .square3-1 {
