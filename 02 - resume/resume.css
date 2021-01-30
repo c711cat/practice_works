@@ -7,10 +7,17 @@ body {
 }
 .wrap {
   width: 100%;
+  padding: 30px 0;
+  background: linear-gradient(to right, #ffecd1, #fcb8a1);
+  border-top: 20px solid #ffecd2;
+  border-bottom: 20px solid #fcb69f;
+  
 }
 .resume {
-  width: 55%;
+  width: 50%;
+ 
   margin: 0 auto;
+  
 }
 .header {
   text-align: center;
@@ -50,13 +57,14 @@ body {
 .left-content {
   width: 30%;
   background: #efefef;
-  padding: 50px 20px 80px 20px;
+  padding: 50px 20px 0px 20px;
 }
 .right-content {
   padding-top: 50px;
   padding-left: 25px;
   padding-right: 25px;
   width: 70%;
+  background: #fff;
 }
 .personal-photo img {
   height: 200px;
@@ -98,7 +106,7 @@ body {
   padding-top: 10px;
   padding-bottom: 15px;
 }
-.experience-outside{
+.experience-outside {
   margin-bottom: 50px;
 }
 .third-title {
@@ -114,7 +122,6 @@ body {
   display: flex;
   color: #666;
   letter-spacing: 1px;
-  
 }
 .years {
   border: 1.5px solid #ff9a9e;
@@ -126,25 +133,25 @@ body {
   justify-content: center;
   margin-top: -6px;
 }
-.serial-connection{
+.serial-connection {
   width: 50px;
   margin-left: 10px;
   margin-top: 1px;
 }
-.point{
+.point {
   width: 8px;
   height: 8px;
   background: #ff9a9e;
   border-radius: 100%;
   margin: 0 auto;
 }
-.line{
+.line {
   height: 100%;
   width: 1px;
   border-left: 1px solid #ff9a9e;
   margin: 0 auto;
 }
-.job-summary{
+.job-summary {
   padding-left: 10px;
 }
 .job-position {
@@ -163,24 +170,23 @@ body {
   padding-bottom: 20px;
 }
 .skill-summary {
-  
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 40px;
 }
 
-.skill-name{
+.skill-name {
   color: #666;
   letter-spacing: 1px;
   margin-bottom: 2px;
   font-size: 14px;
 }
 .skill-bar {
-  width: 280px;
+  width: 245px;
   height: 15px;
   position: relative;
-  background:#efefef;
+  background: #efefef;
   margin-bottom: 15px;
 }
 .percentage-1 {
@@ -226,17 +232,18 @@ body {
   background: linear-gradient(to right, #89f7fe, #66a6ff);
 }
 .big-circle {
-  width: 150px;
-  height: 150px;
+  width: 115px;
+  height: 115px;
   border-radius: 100%;
   max-width: 100%;
-  background: #84fab0;
+  background: linear-gradient(to right, #84fab0, #8fd3f4);
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
   overflow: hidden;
+
 }
 .square1-1 {
   position: absolute;
@@ -298,8 +305,8 @@ body {
   transform: rotate(45deg);
 }
 .small-circle {
-  width: 80%;
-  height: 80%;
+  width: 75%;
+  height: 75%;
   background: #fff;
   border-radius: 100%;
   display: flex;
@@ -307,13 +314,14 @@ body {
   align-items: center;
   overflow: hidden;
   position: absolute;
+  font-size: 12px;
+  color: #666;
+  letter-spacing: 1px;
+  line-height: 1.5;
 }
 .special-skills {
   display: flex;
-  border: 1px solid;
-}
-.special-skill-name {
-  border: 1px solid;
-  width: 100%;
-  height: 100%;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding-bottom: 50px;
 }
