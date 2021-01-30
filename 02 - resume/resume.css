@@ -178,18 +178,52 @@ body {
 }
 .skill-bar {
   width: 280px;
-  height: 20px;
+  height: 15px;
   position: relative;
   background:#efefef;
   margin-bottom: 15px;
 }
-.percentage {
+.percentage-1 {
   height: 100%;
   width: 20%;
   position: absolute;
   left: 0%;
   background: linear-gradient(to right, #89f7fe, #66a6ff);
-  
+}
+.percentage-2 {
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  left: 0%;
+  background: linear-gradient(to right, #89f7fe, #66a6ff);
+}
+.percentage-3 {
+  height: 100%;
+  width: 70%;
+  position: absolute;
+  left: 0%;
+  background: linear-gradient(to right, #89f7fe, #66a6ff);
+}
+.percentage-4 {
+  height: 100%;
+  width: 80%;
+  position: absolute;
+  left: 0%;
+  background: linear-gradient(to right, #89f7fe, #66a6ff);
+}
+.percentage-5 {
+  height: 100%;
+  width: 90%;
+  position: absolute;
+  left: 0%;
+  background: linear-gradient(to right, #89f7fe, #66a6ff);
+}
+.percentage-6 {
+  height: 100%;
+  width: 30%;
+  position: absolute;
+  left: 0%;
+  background: linear-gradient(to right, #89f7fe, #66a6ff);
 }
 .big-circle {
   width: 150px;
