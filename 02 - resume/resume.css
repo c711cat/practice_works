@@ -11,14 +11,20 @@ body {
   background: linear-gradient(to right, #ffecd1, #fcb8a1);
   border-top: 20px solid #ffecd2;
   border-bottom: 20px solid #fcb69f;
-  
+}
+.background-text {
+  position: absolute;
+  font-size: 200px;
+  top: 470px;
+  color: rgba(0, 0, 0, 0.035);
 }
 .resume {
-  width: 50%;
- 
+  width: 47%;
   margin: 0 auto;
-  
+  position: relative;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
+
 .header {
   text-align: center;
   background: linear-gradient(to right, #ffa3ab, #fecfef);
@@ -243,7 +249,6 @@ body {
   align-items: center;
   position: relative;
   overflow: hidden;
-
 }
 .square1-1 {
   position: absolute;
