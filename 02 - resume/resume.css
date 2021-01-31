@@ -123,7 +123,7 @@ body {
   color: #444;
   font-size: 20px;
   font-weight: bold;
-  line-height: 14px;
+  line-height: 15px;
   border-bottom: 1px solid #444;
   margin-bottom: 20px;
   letter-spacing: 1px;
@@ -144,7 +144,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: -6px;
+  margin-top: -3px;
   position: relative;
 }
 .right-arrow{
@@ -155,16 +155,18 @@ body {
   border-right: 1.5px solid #ff9a9e;
   position: absolute;
   transform: rotate(45deg);
+  top:1.8px;
   right: -7px;
 }
 .serial-connection {
   width: 50px;
-  margin-left: 10px;
-  margin-top: 1px;
+  margin-left: 15px;
+  margin-top: 3px;
+
 }
 .point {
-  width: 8px;
-  height: 8px;
+  width: 10px;
+  height: 10px;
   background: #ff9a9e;
   border-radius: 100%;
   margin: 0 auto;
