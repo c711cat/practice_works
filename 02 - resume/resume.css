@@ -15,7 +15,7 @@ body {
 .background-text {
   position: absolute;
   font-size: 200px;
-  top: 470px;
+  top: 400px;
   color: rgba(0, 0, 0, 0.035);
 }
 .resume {
@@ -74,13 +74,12 @@ body {
 }
 
 .personal-photo-outside {
-  
   margin-bottom: 50px;
   height: 200px;
   width: 200px;
- position: relative;
- overflow: hidden;
- border-radius: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 100%;
 }
 .personal-photo {
   position: absolute;
