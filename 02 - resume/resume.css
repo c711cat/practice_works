@@ -19,7 +19,7 @@ body {
   color: rgba(0, 0, 0, 0.035);
 }
 .resume {
-  width: 53%;
+  width: 800px;
   margin: 0 auto;
   position: relative;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
@@ -74,18 +74,22 @@ body {
 }
 
 .personal-photo-outside {
+  margin: 0 auto;
   margin-bottom: 50px;
   height: 200px;
   width: 200px;
   position: relative;
   overflow: hidden;
   border-radius: 100%;
+  max-width: 100%;
+  max-height: 100%;
 }
 .personal-photo {
   position: absolute;
-  width: 200px;
-  height: 300px;
+  width: 100%;
+  height: 100%
   right: 0px;
+ 
 }
 .sec-title {
   border-bottom: 1.6px solid #777;
@@ -134,7 +138,6 @@ body {
   letter-spacing: 1px;
 }
 .years {
-  
   border-top: 1.5px solid #ff9a9e;
   border-bottom: 1.5px solid #ff9a9e;
   border-left: 1.5px solid #ff9a9e;
@@ -150,7 +153,6 @@ body {
 .right-arrow{
   width: 14px;
   height: 14px;
-  
   border-top: 1.5px solid #ff9a9e;
   border-right: 1.5px solid #ff9a9e;
   position: absolute;
