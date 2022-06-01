@@ -1,0 +1,352 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 黑體-繁, "Heiti TC", "儷黑 Pro", "LiHei Pro", 微軟正黑體,
+    "Microsoft JhengHei", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+body {
+ 
+  padding: 30px 0;
+  background: linear-gradient(to right, #ffecd1, #fcb8a1);
+  border-top: 20px solid #ffecd2;
+  border-bottom: 20px solid #fcb69f;
+}
+.background-text {
+  position: absolute;
+  font-size: 200px;
+  top: 400px;
+  color: rgba(0, 0, 0, 0.035);
+}
+.resume {
+  width: 800px;
+  margin: 0 auto;
+  position: relative;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+  text-align: center;
+  background: linear-gradient(to right, #ffa3ab, #fecfef);
+  color: #fff;
+  padding: 30px;
+}
+.headline {
+  margin: 10px;
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+.name {
+  margin: 20px;
+  font-weight: bold;
+  font-size: 34px;
+  letter-spacing: 5px;
+}
+.horizontal-line {
+  width: 250px;
+  height: 1px;
+  border-top: 1px solid;
+}
+.decorative {
+  border: 1px solid;
+  letter-spacing: 3px;
+  padding: 10px;
+}
+.beautify {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  display: flex;
+}
+.left-content {
+  width: 30%;
+  background: #efefef;
+  padding: 50px 20px 0px 20px;
+}
+.right-content {
+  padding-top: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 70%;
+  background: #fff;
+}
+
+.personal-photo-outside {
+  margin: 0 auto;
+  margin-bottom: 50px;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.personal-photo {
+  position: absolute;
+  width: 100%;
+  right: 0px;
+}
+.sec-title {
+  border-bottom: 1.6px solid #777;
+  text-align: center;
+  line-height: 14px;
+  color: #444;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.self-introduction {
+  color: #666;
+  margin-top: -10px;
+  padding-bottom: 100px;
+  line-height: 1.2;
+}
+.contact-pic img {
+  width: 60px;
+}
+.contact-pic,
+.phone-number,
+.personal-mail {
+  text-align: center;
+  color: #666;
+  letter-spacing: 1px;
+}
+.phone-number {
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+.experience-outside {
+  margin-bottom: 50px;
+}
+.third-title {
+  color: #444;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 15px;
+  border-bottom: 1px solid #444;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+.experience-introduction {
+  display: flex;
+  color: #666;
+  letter-spacing: 1px;
+}
+.years {
+  border-top: 1.5px solid #ff9a9e;
+  border-bottom: 1.5px solid #ff9a9e;
+  border-left: 1.5px solid #ff9a9e;
+  font-size: 12px;
+  height: 100%;
+  padding: 3px 4px 3px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -3px;
+  position: relative;
+}
+.right-arrow{
+  width: 14px;
+  height: 14px;
+  border-top: 1.5px solid #ff9a9e;
+  border-right: 1.5px solid #ff9a9e;
+  position: absolute;
+  transform: rotate(45deg);
+  top:1.8px;
+  right: -7px;
+}
+.serial-connection {
+  width: 50px;
+  margin-left: 18px;
+  margin-top: 3px;
+
+}
+.point {
+  width: 10px;
+  height: 10px;
+  background: #ff9a9e;
+  border-radius: 100%;
+  margin: 0 auto;
+}
+.line {
+  height: 100%;
+  width: 1px;
+  border-left: 1px solid #ff9a9e;
+  margin: 0 auto;
+}
+.job-summary {
+  padding-left: 10px;
+}
+.job-position {
+  font-size: 16px;
+  color: #666;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.job-title {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.job-details {
+  font-size: 14px;
+  line-height: 1.5;
+  padding-bottom: 20px;
+}
+.skill-summary {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.skill-name {
+  color: #666;
+  letter-spacing: 1px;
+  margin-bottom: 2px;
+  font-size: 14px;
+}
+.skill-bar {
+  width: 245px;
+  height: 15px;
+  position: relative;
+  background: #efefef;
+  margin-bottom: 15px;
+}
+.percentage-1 {
+  height: 100%;
+  width: 20%;
+  position: absolute;
+  left: 0%;
+  background: linear-gradient(to right, #89f7fe, #66a6ff);
+}
+.percentage-2 {
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  left: 0%;
+  background: linear-gradient(to right, #89f7fe, #66a6ff);
+}
+.percentage-3 {
+  height: 100%;
+  width: 70%;
+  position: absolute;
+  left: 0%;
+  background: linear-gradient(to right, #89f7fe, #66a6ff);
+}
+.percentage-4 {
+  height: 100%;
+  width: 80%;
+  position: absolute;
+  left: 0%;
+  background: linear-gradient(to right, #89f7fe, #66a6ff);
+}
+.percentage-5 {
+  height: 100%;
+  width: 90%;
+  position: absolute;
+  left: 0%;
+  background: linear-gradient(to right, #89f7fe, #66a6ff);
+}
+.percentage-6 {
+  height: 100%;
+  width: 30%;
+  position: absolute;
+  left: 0%;
+  background: linear-gradient(to right, #89f7fe, #66a6ff);
+}
+.big-circle {
+  width: 115px;
+  height: 115px;
+  border-radius: 100%;
+  max-width: 100%;
+  background: linear-gradient(to right, #84fab0, #8fd3f4);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+.square1-1 {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  width: 50%;
+  height: 50%;
+  background: #efefef;
+}
+.square2-1 {
+  position: absolute;
+  top: -25%;
+  left: 50%;
+  width: 50%;
+  height: 50%;
+  transform: skew(0deg, -45deg);
+  background: #efefef;
+}
+.square3-1 {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  width: 50%;
+  height: 50%;
+  background: #efefef;
+}
+.square3-2 {
+  position: absolute;
+  top: -0%;
+  left: 70%;
+  width: 100%;
+  height: 100%;
+  background: #efefef;
+  transform: rotate(45deg);
+}
+.square4-1 {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  width: 50%;
+  height: 50%;
+  background: #efefef;
+}
+.square4-2 {
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  width: 50%;
+  height: 50%;
+  background: #efefef;
+}
+.square4-3 {
+  position: absolute;
+  top: 70%;
+  right: 0%;
+  width: 100%;
+  height: 100%;
+  background: #efefef;
+  transform: rotate(45deg);
+}
+.small-circle {
+  width: 75%;
+  height: 75%;
+  background: #fff;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: absolute;
+  font-size: 12px;
+  color: #666;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+.special-skills {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding-bottom: 50px;
+}
