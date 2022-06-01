@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI-calculator</title>
+    <link rel="stylesheet" href="./css-reset.css" />
+    <link rel="stylesheet" href="./BMI-calculator.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="banner">
+        <img src="./BMI-calculator-img/BMICLogo.png" alt="BMICLogo" />
+        <div class="key-in-box">
+          <p>身高 cm</p>
+          <input class="height" type="text" placeholder="請輸入身高" />
+          <p>體重 kg</p>
+          <input class="weight" type="text" placeholder="請輸入體重" />
+        </div>
+        <div class="btn-and-result">
+        <!--看結果按鈕result btn-->
+        <!-- <div class="result-btn">
+          <input type="button" value="看結果" />
+        </div> -->
+        <!--理想體重ideal weight-->
+        <!-- <div class="ideal-circle-out">
+          <div class="ideal-circle-in">
+            <div class="ideal-BMI-result">
+              <p class="ideal-BMI-value">20.90</p>
+              <p class="ideal-BMI">BMI</p>
+            </div>
+          </div>
+          <div class="ideal-icon-loop-out">
+            <div class="ideal-icon-loop-in">
+              <img src="./BMI-calculator-img/icons_loop.png" alt="icons_loop" />
+            </div>
+          </div>
+        </div>
+        <span class="ideal">理想</span> -->
+        <!--過輕underweight-->
+        <!-- <div class="underweight-circle-out">
+          <div class="underweight-circle-in">
+            <div class="underweight-BMI-result">
+              <p class="underweight-BMI-value">20.90</p>
+              <p class="underweight-BMI">BMI</p>
+            </div>
+          </div>
+          <div class="underweight-icon-loop-out">
+            <div class="underweight-icon-loop-in">
+              <img src="./BMI-calculator-img/icons_loop.png" alt="icons_loop" />
+            </div>
+          </div>
+        </div>
+        <span class="underweight">過輕</span> -->
+        <!--過重overweight-->
+        <!-- <div class="overweight-circle-out">
+          <div class="overweight-circle-in">
+            <div class="overweight-BMI-result">
+              <p class="overweight-BMI-value">20.90</p>
+              <p class="overweight-BMI">BMI</p>
+            </div>
+          </div>
+          <div class="overweight-icon-loop-out">
+            <div class="overweight-icon-loop-in">
+              <img src="./BMI-calculator-img/icons_loop.png" alt="icons_loop" />
+            </div>
+          </div>
+        </div>
+        <span class="overweight">過重</span> -->
+        <!--輕度肥胖 mild-obesity-->
+        <!-- <div class="mild-obesity-circle-out">
+          <div class="mild-obesity-circle-in">
+            <div class="mild-obesity-BMI-result">
+              <p class="mild-obesity-BMI-value">20.90</p>
+              <p class="mild-obesity-BMI">BMI</p>
+            </div>
+          </div>
+          <div class="mild-obesity-icon-loop-out">
+            <div class="mild-obesity-icon-loop-in">
+              <img src="./BMI-calculator-img/icons_loop.png" alt="icons_loop" />
+            </div>
+          </div>
+        </div>
+        <span class="mild-obesity">輕度肥胖</span> -->
+        <!--中度肥胖 moderate-obesity-->
+        <!-- <div class="moderate-obesity-circle-out">
+          <div class="moderate-obesity-circle-in">
+            <div class="moderate-obesity-BMI-result">
+              <p class="moderate-obesity-BMI-value">20.90</p>
+              <p class="moderate-obesity-BMI">BMI</p>
+            </div>
+          </div>
+          <div class="moderate-obesity-icon-loop-out">
+            <div class="moderate-obesity-icon-loop-in">
+              <img src="./BMI-calculator-img/icons_loop.png" alt="icons_loop" />
+            </div>
+          </div>
+        </div>
+        <span class="moderate-obesity">中度肥胖</span> -->
+        <!--重度肥胖 severe-obesity-->
+
+        <!-- <div class="severe-obesity-circle-out">
+          <div class="severe-obesity-circle-in">
+            <div class="severe-obesity-BMI-result">
+              <p class="severe-obesity-BMI-value">20.90</p>
+              <p class="severe-obesity-BMI">BMI</p>
+            </div>
+          </div>
+          <div class="severe-obesity-icon-loop-out">
+            <div class="severe-obesity-icon-loop-in">
+              <img src="./BMI-calculator-img/icons_loop.png" alt="icons_loop" />
+            </div>
+          </div>
+        </div>
+        <span class="severe-obesity">重度肥胖</span> -->
+      </div>
+      </div>
+      <div class="medium">
+        <p class="BMI-records">BMI 紀錄</p>
+        <!-- <div class="ideal-bar">
+          <span class="bar-text">理想</span
+          ><span class="bar-BMI">BMI</span
+          ><span class="bar-BMI-value">20.90</span
+          ><span class="bar-weight">weight</span><span class="bar-kg">70kg</span
+          ><span class="bar-height">height</span
+          ><span class="bar-cm">180cm</span
+          ><span class="bar-date">06-19-2017</span>
+        </div>
+        <div class="underweight-bar">
+          <span class="bar-text">過輕</span
+          ><span class="bar-BMI">BMI</span
+          ><span class="bar-BMI-value">20.90</span
+          ><span class="bar-weight">weight</span><span class="bar-kg">70kg</span
+          ><span class="bar-height">height</span
+          ><span class="bar-cm">180cm</span
+          ><span class="bar-date">06-19-2017</span>
+        </div>
+        <div class="overweight-bar">
+          <span class="bar-text">過重</span
+          ><span class="bar-BMI">BMI</span
+          ><span class="bar-BMI-value">20.90</span
+          ><span class="bar-weight">weight</span><span class="bar-kg">70kg</span
+          ><span class="bar-height">height</span
+          ><span class="bar-cm">180cm</span
+          ><span class="bar-date">06-19-2017</span>
+        </div>
+        <div class="mild-and-moderate-obesity-bar">
+          <span class="bar-text">輕度肥胖</span
+          ><span class="bar-BMI">BMI</span
+          ><span class="bar-BMI-value">20.90</span
+          ><span class="bar-weight">weight</span><span class="bar-kg">70kg</span
+          ><span class="bar-height">height</span
+          ><span class="bar-cm">180cm</span
+          ><span class="bar-date">06-19-2017</span>
+        </div>
+        <div class="mild-and-moderate-obesity-bar">
+          <span class="bar-text">中度肥胖</span
+          ><span class="bar-BMI">BMI</span
+          ><span class="bar-BMI-value">20.90</span
+          ><span class="bar-weight">weight</span><span class="bar-kg">70kg</span
+          ><span class="bar-height">height</span
+          ><span class="bar-cm">180cm</span
+          ><span class="bar-date">06-19-2017</span>
+        </div>
+        <div class="severe-obesity-bar">
+          <span class="bar-text">重度肥胖</span
+          ><span class="bar-BMI">BMI</span
+          ><span class="bar-BMI-value">20.90</span
+          ><span class="bar-weight">weight</span><span class="bar-kg">70kg</span
+          ><span class="bar-height">height</span
+          ><span class="bar-cm">180cm</span
+          ><span class="bar-date">06-19-2017</span>
+        </div> -->
+      </div>
+      <div class="footer">
+        <img src="./BMI-calculator-img/BMICLogo.png" alt="BMICLogo">
+      </div>
+    </div>
+    <script src="./BMI-calculator.js"></script>
+  </body>
+</html>
